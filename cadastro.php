@@ -16,10 +16,11 @@
             <a href="cadastro.php">Cadastro</a>
             <a href="contato.php">Contato</a>
         </div>
+        
     </header>
 
     <main class="content">
-        <form action="cadastro.php" method="post">
+        <form action="perfil.php" method="post">
             <h2>Cadastro</h2>
             <input type="text" name="nome" placeholder="Nome" required>
             <input type="number" name="anoNasc" placeholder="Ano Nascimento" required>
@@ -41,6 +42,7 @@
                 echo $cliente->__toString();
             }
         }
+        
         ?>
     </main>
 
