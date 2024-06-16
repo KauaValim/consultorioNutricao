@@ -38,7 +38,7 @@
         }
         public function __toString() {
             return "Nome: $this->nome<br>Ano Nascimento: $this->anoNascimento<br>Peso: ".number_format($this->peso,2,",",".")."<br>
-            Altura: ".number_format($this->altura,2,",",".").".<br>";
+            Altura: ".number_format($this->altura,2,",",".")."<br>IMC: ".$this->calcularIMC($this->peso, $this->altura)."<br>Idade: ".$this->calcularIdade($this->anoNascimento);
         }
 
         public function calcularIMC($peso, $altura) {

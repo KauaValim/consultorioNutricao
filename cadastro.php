@@ -15,12 +15,6 @@
             <a href="index.php">Home</a>
             <a href="cadastro.php">Cadastro</a>
             <a href="contato.php">Contato</a>
-            <?php
-            session_start();
-            if (isset($_SESSION["nome"])) {
-                Echo "<a href='perfil.php'>Perfil</a>";
-            };
-        ?>
         </div>
         
     </header>
@@ -42,14 +36,10 @@
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             if (isset($_POST["nome"]) && isset($_POST["anoNasc"]) && ($_POST["anoNasc"] > 1900 && $_POST["anoNasc"] <= date("Y")) && isset($_POST["peso"]) && isset($_POST["altura"])) {
                 $cliente->setNome($_POST["nome"]);
-                $_SESSION["nome"]=$_POST["nome"];
                 $cliente->setAnoNascimento($_POST["anoNasc"]);
-                $_SESSION["anoNasc"]=$cliente->getAnoNascimento();
                 $cliente->setPeso($_POST["peso"]);
-                $_SESSION["peso"]=$cliente->getPeso();
                 $cliente->setAltura($_POST["altura"]);
-                $_SESSION["altura"]=$cliente->getAltura();
-                $_SESSION["cliente"] = $cliente;
+                echo $cliente->__toString();
             }
         }
         
