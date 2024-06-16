@@ -38,11 +38,8 @@
                 $cliente->setAnoNascimento($_POST["anoNasc"]);
                 $cliente->setPeso($_POST["peso"]);
                 $cliente->setAltura($_POST["altura"]);
+                echo $cliente->__toString();
             }
-            echo $cliente->__toString();
-            echo "Idade: ".$cliente->calcularIdade($cliente->getAnoNascimento())."<br>";
-            echo "Resultado IMC: ".$cliente->calcularIMC($cliente->getPeso(),$cliente->getAltura())."<br>";
-
         }
         ?>
     </main>
