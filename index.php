@@ -14,12 +14,6 @@
             <a href="index.php">Home</a>
             <a href="cadastro.php">Cadastro</a>
             <a href="contato.php">Contato</a>
-            <?php
-            session_start();
-            if (isset($_SESSION["nome"])) {
-                Echo "<a href='perfil.php'>Perfil</a>";
-            };
-        ?>
         </div>
     </header>
 
