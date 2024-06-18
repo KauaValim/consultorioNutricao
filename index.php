@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <h1>Clínica Dr. Gorducha</h1>
+        <h1>Clínica Dra. Gorducha</h1>
         <div class="menu">
             <a href="index.php">Home</a>
             <a href="cadastro.php">Cadastro</a>
