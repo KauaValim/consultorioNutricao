@@ -17,7 +17,8 @@
             <a href="contato.php">Contato</a>
         </div>
     </header>
-
+    <?php
+    ?>
 </body>
 
 </html>
