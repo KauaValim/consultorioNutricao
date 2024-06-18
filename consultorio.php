@@ -42,7 +42,7 @@
         }
 
         public function calcularIMC($peso, $altura) {
-            $imc = $peso*pow($altura,2);
+            $imc = $peso/pow($altura,2);
             return ($imc < 18.5) ? "Abaixo do peso" : (($imc < 24.9) ? "Peso normal" : (($imc < 29.9) ? "Sobre peso" : "Obesidade"));
         }
 
