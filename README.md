@@ -1,9 +1,9 @@
 # Clínica Nutrição Project
-![GitHub repo size](https://img.shields.io/github/repo-size/KauaValim/ClinicaNutricao?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/KauaValim/ClinicaNutricao?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/KauaValim/ClinicaNutricao?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/KauaValim/ClinicaNutricao?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/KauaValim/ClinicaNutricao?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/KauaValim/consultorioNutricao?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/KauaValim/consultorioNutricao?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/KauaValim/consultorioNutricao?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/KauaValim/consultorioNutricao?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/KauaValim/consultorioNutricao?style=for-the-badge)
 
 <img src="ScreenshotClinica.png" alt="Website Image">
 
